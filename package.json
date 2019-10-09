@@ -1,0 +1,25 @@
+{
+  "name": "nemchat",
+  "version": "1.0.0",
+  "description": "anonymous encrypted secure chat and micro payment client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elia Biraschi <elia.biraschi@gmail.com>",
+  "license": "GPL3",
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "eventemitter3": "^3.0.0",
+    "inquirer": "^4.0.1",
+    "nem-sdk": "^1.6.1",
+    "prettyjson": "^1.2.1",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.10.0"
+  }
+}
